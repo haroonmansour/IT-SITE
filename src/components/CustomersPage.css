@@ -1,0 +1,42 @@
+.customers-page {
+  padding: 20px;
+}
+
+.customer-category {
+  margin-top: 40px;
+}
+.center {
+  text-align: center;
+}
+
+.customer-category h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.customer-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.customer-item {
+  text-align: center;
+}
+
+.customer-item img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.customer-item p {
+  margin-top: 10px;
+}
+
+.section-divider {
+  border: none;
+  border-top: 2px solid #ccc;
+  margin: 40px 0;
+}

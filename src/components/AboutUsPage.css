@@ -1,0 +1,36 @@
+.about-us-page {
+  padding: 20px;
+}
+
+.about-us-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-us-image {
+  width: 45%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.about-us-text {
+  width: 45%;
+}
+
+.section-divider {
+  border: none;
+  border-top: 2px solid #ccc;
+  margin: 40px 0;
+}
+
+.section h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.section p {
+  font-size: 18px;
+}
+

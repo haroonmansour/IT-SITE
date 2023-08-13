@@ -1,0 +1,49 @@
+
+.professional-services{
+  padding: 20px;
+}
+
+.professional-services img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.paragraphh {
+  font-size: 1.25rem; 
+  line-height: 1.6;
+}
+
+.service-list {
+  display: flex;
+  flex-direction: column; 
+  margin-top: 20px;
+}
+
+.business-solutions,
+.our-services {
+  margin-bottom: 20px;
+}
+
+.business-solutions h2,
+.our-services h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.business-solutions ul,
+.our-services ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .service-list {
+    flex-direction: column;
+  }
+
+  .business-solutions,
+  .our-services {
+    margin-bottom: 20px;
+  }
+}
